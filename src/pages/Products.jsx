@@ -7,7 +7,7 @@ function Products() {
 
   // Fetch all products
   useEffect(() => {
-    fetch("http://localhost:3001/products")
+    fetch("https://glam-hub-api.onrender.com/products")
       .then((r) => r.json())
       .then((data) => setProducts(data));
   }, []);
@@ -21,7 +21,7 @@ function Products() {
 
   // Delete a product
   function handleDelete(id) {
-    fetch(`http://localhost:3001/products/${id}`, {
+    fetch(`https://glam-hub-api.onrender.com/products/${id}`, {
       method: "DELETE",
     }).then(() => {
       setProducts(products.filter((p) => p.id !== id));
@@ -30,7 +30,7 @@ function Products() {
 
   // Update a product price
   function handleUpdate(id, updatedProduct) {
-    fetch(`http://localhost:3001/products/${id}`, {
+    fetch(`https://glam-hub-api.onrender.com/products/${id}`, {
       method: "PATCH",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedProduct),
