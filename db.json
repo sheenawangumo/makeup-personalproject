@@ -1,0 +1,62 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "Glam Hub",
+      "description": "Your one stop shop for all things beauty",
+      "phone_number": "555-1234"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Matte Lipstick",
+      "brand": "MAC",
+      "category": "Lips",
+      "shade": "Ruby Woo",
+      "price": 19.99,
+      "stock": 50,
+      "description": "A classic matte red lipstick"
+    },
+    {
+      "id": 2,
+      "name": "Foundation",
+      "brand": "Fenty Beauty",
+      "category": "Face",
+      "shade": "150N",
+      "price": 35.00,
+      "stock": 30,
+      "description": "Full coverage foundation for all skin tones"
+    },
+    {
+      "id": 3,
+      "name": "Mascara",
+      "brand": "Maybelline",
+      "category": "Eyes",
+      "shade": "Blackest Black",
+      "price": 12.99,
+      "stock": 75,
+      "description": "Volumizing and lengthening mascara"
+    },
+    {
+      "id": 4,
+      "name": "Eyeshadow Palette",
+      "brand": "Urban Decay",
+      "category": "Eyes",
+      "shade": "Naked",
+      "price": 54.00,
+      "stock": 20,
+      "description": "12 neutral shades for everyday looks"
+    },
+    {
+      "id": 5,
+      "name": "Blush",
+      "brand": "NARS",
+      "category": "Face",
+      "shade": "Orgasm",
+      "price": 30.00,
+      "stock": 40,
+      "description": "A peachy pink blush with golden shimmer"
+    }
+  ]
+}
