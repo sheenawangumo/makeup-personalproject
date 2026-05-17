@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import useFetch from "../hooks/useFetch";
 
 function Landing() {
-  const { data, loading, error } = useFetch("http://localhost:3001/store_info");
+  const { data, loading, error } = useFetch("https://glam-hub-api.onrender.com/store_info");
 
   if (loading) return <p style={styles.loading}>Loading...</p>;
   if (error) return <p style={styles.loading}>Error: {error}</p>;
