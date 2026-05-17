@@ -1,16 +1,44 @@
-# React + Vite
+# Glam Hub - Makeup Admin Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Single Page Application (SPA) for managing a makeup store's product inventory.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Prerequisites
+- Node.js installed
+- npm installed
 
-## React Compiler
+### Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repository
 
-## Expanding the ESLint configuration
+2. Navigate into the project folder
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies
+
+### Running the App
+
+1. Start the fake backend 
+
+2. Start the React app (in another terminal)
+
+3. Open your browser and go to local host link
+
+## What was Used
+
+- React (Vite)
+
+- React Router DOM
+
+- JSON Server (fake backend)
+
+- Vitest + React Testing Library
+
+## Some issues
+
+- Data is stored in db.json (not a real database)
+
+- No user authentication
+
+- No image upload for products
+
