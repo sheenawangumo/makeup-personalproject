@@ -34,7 +34,7 @@ function AddProduct() {
       stock: parseInt(formData.stock) || 0,
     };
 
-    fetch("http://localhost:3001/products", {
+    fetch("https://glam-hub-api.onrender.com/products", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newProduct),
